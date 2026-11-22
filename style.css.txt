@@ -1,0 +1,102 @@
+/* Basic reset */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* Colour palette */
+:root {
+  --bg: #f6f7fb;
+  --card: #ffffff;
+  --text: #1f2937;
+  --muted: #5b6472;
+  --accent: #2b50d8;
+  --header-bg: #14213d;
+  --header-text: #ffffff;
+}
+
+body {
+  font-family: "Segoe UI", Helvetica, Arial, sans-serif;
+  line-height: 1.7;
+  background-color: var(--bg);
+  color: var(--text);
+}
+
+/* Header */
+.site-header {
+  background-color: var(--header-bg);
+  color: var(--header-text);
+  text-align: center;
+  padding: 3.5rem 1rem;
+}
+
+.site-header h1 {
+  font-size: 2.6rem;
+  letter-spacing: 0.5px;
+}
+
+.tagline {
+  margin-top: 0.5rem;
+  color: #c9d3f0;
+  font-size: 1.1rem;
+}
+
+/* Main content */
+main {
+  max-width: 720px;
+  margin: 2rem auto;
+  padding: 0 1rem;
+}
+
+section {
+  background-color: var(--card);
+  border-left: 4px solid var(--accent);
+  border-radius: 6px;
+  padding: 1.5rem 1.75rem;
+  margin-bottom: 1.5rem;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.08);
+}
+
+section h2 {
+  color: var(--accent);
+  font-size: 1.4rem;
+  margin-bottom: 0.6rem;
+}
+
+section p {
+  color: var(--muted);
+}
+
+section ul {
+  list-style: none;
+}
+
+section li {
+  color: var(--muted);
+  padding: 0.2rem 0;
+}
+
+section li strong,
+section p strong {
+  color: var(--text);
+}
+
+/* Footer */
+.site-footer {
+  text-align: center;
+  padding: 1.5rem 1rem;
+  color: var(--muted);
+  font-size: 0.9rem;
+}
+
+/* Small screens */
+@media (max-width: 480px) {
+  .site-header h1 {
+    font-size: 2rem;
+  }
+
+  section {
+    padding: 1.2rem;
+  }
+}

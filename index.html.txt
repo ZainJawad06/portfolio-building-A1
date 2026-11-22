@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Zain Jawad | Introduction</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header class="site-header">
+    <h1>Zain Jawad</h1>
+    <p class="tagline">Computer Science student building things with AI and the web</p>
+  </header>
+
+  <main>
+    <section id="about">
+      <h2>About Me</h2>
+      <p>
+        Hi, I'm Zain. I'm a second-year B.Tech student in Computer Science and
+        Engineering (AI &amp; ML) at REVA University in Bengaluru, India.
+        I enjoy turning ideas into working software, from small games to
+        full web apps.
+      </p>
+    </section>
+
+    <section id="education">
+      <h2>Education</h2>
+      <ul>
+        <li><strong>Degree:</strong> B.Tech in Computer Science and Engineering (AIML)</li>
+        <li><strong>University:</strong> REVA University, Bengaluru</li>
+        <li><strong>Year:</strong> Second year</li>
+      </ul>
+    </section>
+
+    <section id="involvement">
+      <h2>Club Involvement</h2>
+      <p>
+        I am the President of <strong>AiFi</strong> (Artificial Intelligence and
+        Future Innovation), the AIML technical student club at REVA University.
+        I help organise events and bring in sponsorships for the club.
+      </p>
+    </section>
+
+    <section id="interests">
+      <h2>Interests</h2>
+      <ul>
+        <li>Building games and interactive web apps</li>
+        <li>Design and acrylic art</li>
+        <li>Table tennis</li>
+        <li>Gaming and reading</li>
+      </ul>
+    </section>
+
+    <section id="contact">
+      <h2>Contact</h2>
+      <p>Based in Bengaluru, Karnataka, India.</p>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <p>&copy; 2026 Zain Jawad</p>
+  </footer>
+
+</body>
+</html>
